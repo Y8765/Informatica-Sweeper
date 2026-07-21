@@ -1,0 +1,23 @@
+{
+  "base_url": "https://prd-host.example:9085",
+  "servlet_path": "/ldmcatalog/ldmProxyServlet",
+
+  "cookies": "username=agampt3; userID=pt3; namespace=PT; logoutURL=login; daaJSessionId=REPLACE; loginToken=REPLACE; infaToken=REPLACE",
+
+  "headers": {
+    "Infatoken": "REPLACE",
+    "Referer": "https://prd-host.example:9085/ldmcatalog/main/ldmObjectView/",
+    "Origin": "https://prd-host.example:9085",
+    "User-Agent": "Mozilla/5.0"
+  },
+
+  "forbidden_id": "resource_2$$OracleScanner$$SYS.SYS",
+  "control_id": "resource_1$$OracleScanner$$SYS.SYS",
+  "spoof_user": "PT\\agampt2",
+
+  "methods": "get",
+  "word_threshold": 30,
+  "param_filter": "id,resourceName,name,objectId,userId,q",
+  "delay": 0.1,
+  "timeout": 30.0
+}
